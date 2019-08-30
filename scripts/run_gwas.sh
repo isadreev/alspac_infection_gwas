@@ -17,3 +17,4 @@ gcta64 --mlma \
 	--qcovar $files_dir/Covariates_quant.qcovar \
 	--out /output_dir/out \
 	--thread-num 10
+
