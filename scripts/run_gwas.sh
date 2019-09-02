@@ -18,3 +18,5 @@ gcta64 --mlma \
 	--out /output_dir/out \
 	--thread-num 10
 	
+
+	
