@@ -31,3 +31,4 @@ qqplotpval(a$p, "out_qqplot.png")
 png("out_manhattan.png",units = "in", width=12, height=5, res = 72)
 manhattan(a, bp='bp', chr='Chr', p='p')
 dev.off()
+

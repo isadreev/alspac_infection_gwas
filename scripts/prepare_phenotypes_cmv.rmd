@@ -237,4 +237,3 @@ write.table(cv_2, file = "Covariates_quant.qcovar", append = FALSE, quote = FALS
             col.names = FALSE, qmethod = c("escape", "double"),
             fileEncoding = "")
 ```
-

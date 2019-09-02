@@ -16,3 +16,4 @@ plink \
 	--clump-kb 1000 \
 	--out output_dir/out \
 	--clump out.mlma
+
