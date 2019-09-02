@@ -53,10 +53,10 @@ R
 
 ```
 
-Run
+Run (for the required phen: ebv, cmv or hsv)
 
 ```
-Rscript scripts/prepare_phenotypes.r
+Rscript scripts/prepare_phenotypes_phen.rmd
 ```
 
 This takes in the data in `files_dir/File_pheno.Rdata` and `files_dir/Gender.txt` and produces both continuous and binary files needed for GWAS analysis for specific type of infection.
@@ -83,11 +83,8 @@ Rscript scripts/make_plots.r
 ```
 
 
-
-
 ## 4. Clumping
 
 ```
 scripts/clumping.sh
 ```
-
