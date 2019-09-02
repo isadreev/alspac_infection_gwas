@@ -17,10 +17,11 @@ knitr::opts_chunk$set(comment = NA)
 
 This document describes the results of GWAS analysis for EBV, CMV, HSV1, continuous/binary - 6 analyses in total.
 
-# EBV prep
-![Fig 1](/Users/kf19639/Documents/Bristol/Projects/ALSPAC_Infection/Analysis_codes_results/BC3/EBV/Results/EBV_std.png)
 
-# EBV cont manhattan plot
+# EBV prep
+![Fig 1](/Users/kf19639/Documents/Bristol/Projects/ALSPAC_Infection/Analysis_codes_results/BC3/EBV/Results/EBV_std_rt.png) 
+
+# EBV cont manhattan plot⁩
 
 ![Fig 2](/Users/kf19639/Documents/Bristol/Projects/ALSPAC_Infection/Analysis_codes_results/BC3/EBV/Results/EBV_cont_manhattan.png)
 
@@ -34,14 +35,6 @@ This document describes the results of GWAS analysis for EBV, CMV, HSV1, continu
 a=read.delim("/Users/kf19639/Documents/Bristol/Projects/ALSPAC_Infection/Analysis_codes_results/BC3/EBV/Results/EBV_cont.log")
 a=a[-c(1:3),]
 print(a, row.names = FALSE)
-```
-
-# EBV cont clumping results
-
-```{r, echo=FALSE}
-a=read.table("/Users/kf19639/Documents/Bristol/Projects/ALSPAC_Infection/Analysis_codes_results/BC3/EBV/Results/EBV_cont.clumped", header=TRUE)
-comment=NA # to remove all hashes
-kable(a[,c(1,3,5)],align="l",digits = 32)
 ```
 
 
@@ -64,7 +57,7 @@ print(a, row.names = FALSE)
 
 
 # CMV prep
-![Fig 6](/Users/kf19639/Documents/Bristol/Projects/ALSPAC_Infection/Analysis_codes_results/BC3/CMV/Results/CMV_std.png)
+![Fig 6](/Users/kf19639/Documents/Bristol/Projects/ALSPAC_Infection/Analysis_codes_results/BC3/CMV/Results/CMV_std_rt.png)
 
 # CMV cont manhattan plot
 
@@ -101,7 +94,7 @@ print(a, row.names = FALSE)
 
 
 # HSV prep
-![Fig 11](/Users/kf19639/Documents/Bristol/Projects/ALSPAC_Infection/Analysis_codes_results/BC3/HSV/Results/HSV_std.png)
+![Fig 11](/Users/kf19639/Documents/Bristol/Projects/ALSPAC_Infection/Analysis_codes_results/BC3/HSV/Results/HSV_std_rt.png)
 
 # HSV cont manhattan plot
 
@@ -119,14 +112,6 @@ a=a[-c(1:3),]
 print(a, row.names = FALSE)
 ```
 
-
-# HSV cont clumping results
-
-```{r, echo=FALSE}
-a=read.table("/Users/kf19639/Documents/Bristol/Projects/ALSPAC_Infection/Analysis_codes_results/BC3/HSV/Results/HSV_cont.clumped", header=TRUE)
-comment=NA # to remove all hashes
-kable(a[,c(1,3,5)],align="l",digits = 32)
-```
 
 
 # HSV bin manhattan plot
